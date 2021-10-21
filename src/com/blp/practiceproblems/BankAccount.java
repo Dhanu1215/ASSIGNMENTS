@@ -18,6 +18,5 @@ public class BankAccount {
         System.out.println("Account holder name = " + accountHolderName);
         System.out.println("Account Holder age = " + age);
     }
-
 }
 
