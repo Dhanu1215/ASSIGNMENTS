@@ -13,10 +13,10 @@ public class BankAccount {
         //Call method to print details
         account.display(16785433l, "Dhanashree", 23);
     }
-    public void display( long accountNumber, String accountHolderName, int age) {
-        System.out.println("Account number = " +accountNumber);
-        System.out.println("Account holder name = " +accountHolderName);
-        System.out.println("Account Holder age = " +age);
+    private void display( long accountNumber, String accountHolderName, int age) {
+        System.out.println("Account number = " + accountNumber);
+        System.out.println("Account holder name = " + accountHolderName);
+        System.out.println("Account Holder age = " + age);
     }
 
 }
