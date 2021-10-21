@@ -6,20 +6,17 @@ package com.blp.practiceproblems;
 public class BankAccount {
 
     public static void main(String[] args) {
+        String bankName = "Bank of India";
+        System.out.println("Bank Name = " +bankName);
         //Creat object to store the details
         BankAccount account = new BankAccount();
         //Call method to print details
-        account.display();
+        account.display(16785433l, "Dhanashree", 23);
     }
-    private void display() {
-        String bankName = "Bank of India";
-        long accountNumber = 12345645l;
-        String accountHolderName = "Dhanashree Sambhaji Hakke";
-        int age = 23;
-        System.out.println(bankName);
-        System.out.println(accountNumber);
-        System.out.println(accountHolderName);
-        System.out.println(age);
+    private void display( long accountNumber, String accountHolderName, int age) {
+        System.out.println("Account number = " + accountNumber);
+        System.out.println("Account holder name = " + accountHolderName);
+        System.out.println("Account Holder age = " + age);
     }
 
 }
