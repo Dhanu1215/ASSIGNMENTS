@@ -2,6 +2,12 @@ package com.blp.practiceproblems;
 
 import java.util.Scanner;
 
+/**
+ * Palindrome Number
+ * Factorial of given number
+ * Fibonacci Series
+ */
+
 public class PracticeProblem1 {
 
     public static void main(String[] args) {
